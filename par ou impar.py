@@ -15,7 +15,7 @@ if escolha == "par":
         print ("voce perdeu! ")
     
 if escolha == "impar":
-    if ((dedos + maquina) / 2) != 0:
+    if ((dedos + maquina) % 2) != 0:
         print (" voce venceu!!")
     else:
         print ("voce perdeu! ")
