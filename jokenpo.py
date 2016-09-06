@@ -8,38 +8,34 @@ soma2 = 0
 while soma1 < 3 and soma2 < 3 :
 
     jogada1 = str(input("jogue pedra, papel ou tesoura: "))
-    print (" ")
     itens = ["pedra", "papel", "tesoura"]
     import random 
     jogada2 = random.choice(itens)
 
     print ("%s"%jogada1)
-    print ("%s"%jogada2)
-    print (" ")
+    print ("%s\n"%jogada2)
+
 
     if jogada1 == jogada2:
         print ("deu empate")
-        print ("vc já ganhou %s e perdeu %s partidas" %(soma1, soma2))
-        print (" ")
+        print ("vc já ganhou %s e perdeu %s partidas\n" %(soma1, soma2))
+        
     elif jogada1 == ("papel") and jogada2 == ("tesoura"):
         print ("Voce perdeu")
         soma2 = soma2 + 1
-        print ("vc já ganhou %s e perdeu %s partidas" %(soma1, soma2))
-        print (" ")
+        print ("vc já ganhou %s e perdeu %s partidas\n" %(soma1, soma2))
         
-
+        
     elif jogada1 == ("papel") and jogada2 == ("pedra"):
         print ("Voce Ganhou!")
         soma1 = soma1 + 1
-        print ("vc já ganhou %s e perdeu %s partidas" %(soma1, soma2))
-        print (" ")
+        print ("vc já ganhou %s e perdeu %s partidas\n" %(soma1, soma2))
         
-
     elif jogada1 == ("pedra") and jogada2 == ("tesoura"):
         print ("Voce Ganhou")
         soma1 = soma1 + 1
-        print ("vc já ganhou %s e perdeu %s partidas" %(soma1, soma2))
-        print (" ")
+        print ("vc já ganhou %s e perdeu %s partidas\n" %(soma1, soma2))
+
         
 
     elif jogada1 == ("pedra") and jogada2 == ("papel"):

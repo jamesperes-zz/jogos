@@ -2,14 +2,16 @@ print ( 30 * '-')
 print (" \n    Jogo do par ou impar     \n")
 print (30 * '-')
 escolha = str(input("Escolha par ou impar: "))
-while escolha == "":
-    print ("espaço vazio")
-    escolha = str(input("Escolha par ou impar: "))
-    
+while True:
+    if escolha != "par" and escolha != "impar":
+        print ("espaço vazio")
+        escolha = str(input("Escolha par ou impar: "))
+    else:
+        break
     
 dedos = int(input("Escolha o numero de dedos: "))
-while dedos == "":
-    print ("espaço vazio")
+while dedos == "" :
+    print ("espaço vazio ou incorreto!")
     dedos = int(input("Escolha o numero de dedos: "))
     
 import random
