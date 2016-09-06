@@ -1,5 +1,9 @@
 escolha = str(input("Escolha par ou impar: "))
+if escolha == "":
+        print ("espaço vazio")
 dedos = int(input("Escolha o numero de dedos: "))
+if escolha == "":
+        print ("espaço vazio")
 import random
 maquina = random.randrange(0, 10)
 
