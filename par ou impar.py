@@ -3,8 +3,10 @@ print (" \n    Jogo do par ou impar     \n")
 print (30 * '-')
 escolha = str(input("Escolha par ou impar: "))
 while True:
-    if escolha != "par" and escolha != "impar":
-        print ("espaço vazio")
+    if escolha == "Par"  or escolha == "PAR" or escolha == "Impar" or escolha =="IMPAR":
+        break
+    elif escolha != "par" and escolha != "impar":
+        print ("espaço vazio ou incorreto! ")
         escolha = str(input("Escolha par ou impar: "))
     else:
         break
@@ -22,13 +24,13 @@ print (" voce jogou %d e a maquina jogou %d" %(dedos, maquina))
 print (" deu o numero %d" %(dedos + maquina))
 
 
-if escolha == "par":
+if escolha == "par" or escolha == "Par" or escolha == "PAR" :
     if ((dedos + maquina) % 2) == 0:
         print (" voce venceu!!")
     else:
         print ("voce perdeu! ")
     
-if escolha == "impar":
+if escolha == "impar" or escolha == "Impar" or escolha =="IMPAR":
     if ((dedos + maquina) % 2) != 0:
         print (" voce venceu!!")
     else:
