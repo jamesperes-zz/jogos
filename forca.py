@@ -9,7 +9,7 @@ itens_fruta = ["banana", "abacaxi", "maca"]
 
 fruta = random.choice(itens_fruta)
 
-print (len(fruta))
+print ("o numero de letras e: %s " %(len(fruta)))
 
 
 
