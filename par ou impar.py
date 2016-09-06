@@ -1,6 +1,10 @@
-escolha = str(input("Escolha par ou impar: "))
-if escolha == "":
-        print ("espaço vazio")
+print ( 30 * '-')
+print (" \n    Jogo do par ou impar     \n")
+print (30 * '-')
+try:
+    escolha = str(input("Escolha par ou impar: "))
+except ValueError:
+    print ("espaço vazio")
 dedos = int(input("Escolha o numero de dedos: "))
 if escolha == "":
         print ("espaço vazio")

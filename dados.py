@@ -1,3 +1,7 @@
+print ( 30 * '-')
+print (" \n    Jogo de dados     \n")
+print (30 * '-')
+
 import random
 
 

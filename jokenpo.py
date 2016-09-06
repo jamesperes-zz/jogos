@@ -1,3 +1,6 @@
+print ( 30 * '-')
+print (" \n    Jogo Jokenpo     \n")
+print (30 * '-')
 
 soma1 = 0
 soma2 = 0
