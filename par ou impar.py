@@ -1,3 +1,5 @@
+import time
+
 print ( 30 * '-')
 print (" \n    Jogo do par ou impar     \n")
 print (30 * '-')
@@ -40,4 +42,4 @@ if escolha == "impar" or escolha == "Impar" or escolha =="IMPAR":
     else:
         print ("%s" %derrota)
 
-
+time.sleep (10)
