@@ -1,13 +1,17 @@
 print ( 30 * '-')
 print (" \n    Jogo do par ou impar     \n")
 print (30 * '-')
-try:
-    escolha = str(input("Escolha par ou impar: "))
-except ValueError:
+escolha = str(input("Escolha par ou impar: "))
+while escolha == "":
     print ("espaço vazio")
+    escolha = str(input("Escolha par ou impar: "))
+    
+    
 dedos = int(input("Escolha o numero de dedos: "))
-if escolha == "":
-        print ("espaço vazio")
+while dedos == "":
+    print ("espaço vazio")
+    dedos = int(input("Escolha o numero de dedos: "))
+    
 import random
 maquina = random.randrange(0, 10)
 
