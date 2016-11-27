@@ -1,6 +1,6 @@
 import time
 import random
-
+//teste
 print ( 30 * '-')
 print (" \n    Jogo da forca    \n")
 print (30 * '-')
