@@ -11,3 +11,7 @@ par or impar
 jogo_da_velha
 
 
+#committers
+
+James
+Igor
