@@ -13,5 +13,5 @@ jogo_da_velha
 
 #committers
 
-James
-Igor
+James Peres
+Igor Souza
